@@ -161,3 +161,109 @@ document.getElementById('government-call').addEventListener('click',function(e){
 }
 
 })
+
+// Electricity Helpline call 7
+document.getElementById('electricity-call').addEventListener('click',function(e){
+    e.preventDefault()
+    const nevberCoin = parseInt(document.getElementById('navber-coin').innerText)
+
+       if( nevberCoin >= 20 ){
+    alert("📞Colling Electricity Helpline Service 16216... ")
+            const callButton = parseInt(20)
+        const nevberCoin = parseInt(document.getElementById('navber-coin').innerText)
+
+        const subCoin = nevberCoin - callButton
+
+        document.getElementById('navber-coin').innerText = subCoin
+        }
+    else{
+    alert("❌ You don't have enough coins.You need at least 20 coins to make a call ")
+}
+
+})
+
+// Brac Helpline  8
+document.getElementById('ngo-call').addEventListener('click',function(e){
+    e.preventDefault()
+    const nevberCoin = parseInt(document.getElementById('navber-coin').innerText)
+
+       if( nevberCoin >= 20 ){
+    alert("📞Colling Brac Helpline Service 16445... ")
+            const callButton = parseInt(20)
+        const nevberCoin = parseInt(document.getElementById('navber-coin').innerText)
+
+        const subCoin = nevberCoin - callButton
+
+        document.getElementById('navber-coin').innerText = subCoin
+        }
+    else{
+    alert("❌ You don't have enough coins.You need at least 20 coins to make a call ")
+}
+
+})
+
+// Bangladesh Railway Helpline call  9
+document.getElementById('travel-call').addEventListener('click',function(e){
+    e.preventDefault()
+    const nevberCoin = parseInt(document.getElementById('navber-coin').innerText)
+
+       if( nevberCoin >= 20 ){
+    alert("📞Colling Bangladesh Railway Helpline 163... ")
+            const callButton = parseInt(20)
+        const nevberCoin = parseInt(document.getElementById('navber-coin').innerText)
+
+        const subCoin = nevberCoin - callButton
+
+        document.getElementById('navber-coin').innerText = subCoin
+        }
+    else{
+    alert("❌ You don't have enough coins.You need at least 20 coins to make a call ")
+}
+
+})
+
+
+
+
+// call button click and add history
+// const mainCallHistory = document.getElementById('card-container-heart');
+
+// mainCallHistory.addEventListener('click',function (e) {
+//     e.preventDefault()
+//     if(e.target.closest('.call-btn')){
+
+      
+    
+//     const parentCallHistory = document.getElementById('call-history')
+
+    
+//     const addTimeElement = document.getElementById('add-call-history')
+
+    
+//     const creatElement = addTimeElement.cloneNode(true)
+
+
+//     parentCallHistory.appendChild(creatElement)
+// }})
+
+
+
+
+// Fire Service Number
+const mainCallHistory =document.getElementById('all-call').addEventListener('click',function(e){
+
+    const nevberCoin = parseInt(document.getElementById('navber-coin').innerText)
+    if( nevberCoin >= 20 ){
+        const parentCallHistory = document.getElementById('call-history')
+
+    
+    const addTimeElement = document.getElementById('add-call-history')
+
+    
+    const creatElement = addTimeElement.cloneNode(true)
+
+
+    parentCallHistory.appendChild(creatElement)
+    }
+    
+})
