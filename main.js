@@ -102,3 +102,62 @@ document.getElementById('fier-call').addEventListener('click',function(e){
 }
 
 })
+
+// Ambulance Service call   4
+document.getElementById('health-call').addEventListener('click',function(e){
+    e.preventDefault()
+    const nevberCoin = parseInt(document.getElementById('navber-coin').innerText)
+
+       if( nevberCoin >= 20 ){
+    alert("📞Colling Ambulance Service Number 1994-999999... ")
+            const callButton = parseInt(20)
+        const nevberCoin = parseInt(document.getElementById('navber-coin').innerText)
+
+        const subCoin = nevberCoin - callButton
+
+        document.getElementById('navber-coin').innerText = subCoin
+        }
+    else{
+    alert("❌ You don't have enough coins.You need at least 20 coins to make a call ")
+}
+
+})
+ 
+// Women & Child Helpline call  5
+document.getElementById('ambulance-call').addEventListener('click',function(e){
+    e.preventDefault()
+    const nevberCoin = parseInt(document.getElementById('navber-coin').innerText)
+
+       if( nevberCoin >= 20 ){
+    alert("📞Colling Women & Child Helpline Service Number 109... ")
+            const callButton = parseInt(20)
+        const nevberCoin = parseInt(document.getElementById('navber-coin').innerText)
+
+        const subCoin = nevberCoin - callButton
+
+        document.getElementById('navber-coin').innerText = subCoin
+        }
+    else{
+    alert("❌ You don't have enough coins.You need at least 20 coins to make a call ")
+}
+
+})
+// Anti-Corruption Helpline  6
+document.getElementById('government-call').addEventListener('click',function(e){
+    e.preventDefault()
+    const nevberCoin = parseInt(document.getElementById('navber-coin').innerText)
+
+       if( nevberCoin >= 20 ){
+    alert("📞Colling Anti-Corruption Helpline Service Number 106... ")
+            const callButton = parseInt(20)
+        const nevberCoin = parseInt(document.getElementById('navber-coin').innerText)
+
+        const subCoin = nevberCoin - callButton
+
+        document.getElementById('navber-coin').innerText = subCoin
+        }
+    else{
+    alert("❌ You don't have enough coins.You need at least 20 coins to make a call ")
+}
+
+})
