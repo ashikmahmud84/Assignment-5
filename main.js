@@ -24,3 +24,81 @@ document.getElementById('clear-btn').addEventListener('click',function(e){
 
       
 })
+
+// copy button functionality
+cardContainerHerat.addEventListener('click',function(e){
+    e.preventDefault()
+    if(e.target.closest('.copy-btn')){
+
+        const cardContainerHerat = parseInt(1)
+        
+        const navberCopyBtn = parseInt(document.getElementById('navber-copy-btn').innerText)
+
+        const addCopy = navberCopyBtn + cardContainerHerat
+        document.getElementById('navber-copy-btn').innerText = addCopy
+    }
+})
+
+
+// all call  1
+
+
+document.getElementById('all-call').addEventListener('click',function(e){
+    e.preventDefault()
+    const nevberCoin = parseInt(document.getElementById('navber-coin').innerText)
+
+       if( nevberCoin >= 20 ){
+    alert("📞Colling National Emergency Service 999... ")
+            const callButton = parseInt(20)
+        const nevberCoin = parseInt(document.getElementById('navber-coin').innerText)
+
+        const subCoin = nevberCoin - callButton
+
+        document.getElementById('navber-coin').innerText = subCoin
+        }
+    else{
+    alert("❌ You don't have enough coins.You need at least 20 coins to make a call ")
+}
+
+})
+
+// police call   2
+
+document.getElementById('police-call').addEventListener('click',function(e){
+    e.preventDefault()
+    const nevberCoin = parseInt(document.getElementById('navber-coin').innerText)
+
+       if( nevberCoin >= 20 ){
+    alert("📞Colling Police Helpline Number Service 999... ")
+            const callButton = parseInt(20)
+        const nevberCoin = parseInt(document.getElementById('navber-coin').innerText)
+
+        const subCoin = nevberCoin - callButton
+
+        document.getElementById('navber-coin').innerText = subCoin
+        }
+    else{
+    alert("❌ You don't have enough coins.You need at least 20 coins to make a call ")
+}
+
+})
+
+// Fire Service Number call   3
+document.getElementById('fier-call').addEventListener('click',function(e){
+    e.preventDefault()
+    const nevberCoin = parseInt(document.getElementById('navber-coin').innerText)
+
+       if( nevberCoin >= 20 ){
+    alert("📞Colling Fire Service Number  999... ")
+            const callButton = parseInt(20)
+        const nevberCoin = parseInt(document.getElementById('navber-coin').innerText)
+
+        const subCoin = nevberCoin - callButton
+
+        document.getElementById('navber-coin').innerText = subCoin
+        }
+    else{
+    alert("❌ You don't have enough coins.You need at least 20 coins to make a call ")
+}
+
+})
